@@ -11,6 +11,11 @@ Interfaces deConz REST-API (<https://dresden-elektronik.github.io/>) and Corsair
 
 Tested with Phillips Hue lights and several Corsair devices.
 
+## Instructions
+
+In order to get the API key of your gateway you'll need to [unlock your gateway](https://dresden-elektronik.github.io/deconz-rest-doc/getting_started/#unlock-the-gateway) first.
+While the gateway is unlocked, start index.js. If everything works, the gateway will sync all available light groups with the average color across your corsair devices.
+
 ## TODO
 
     - single and group selections for both corsair devices and gateway items
