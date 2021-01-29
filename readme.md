@@ -1,15 +1,15 @@
 # deCue
 
-Interfaces deConz REST-API (<https://dresden-elektronik.github.io/>) and Corsair cue Node SDK (<https://github.com/CorsairOfficial/cue-sdk-node>) to sync colors.
+Interfaces deConz REST-API (<https://dresden-elektronik.github.io/>) and Corsair cue node SDK (<https://github.com/CorsairOfficial/cue-sdk-node>) to sync colors.
 
 ## Features
 
-    - get available corsair devices
-    - calculate average rgb color
+    - querry available corsair devices and leds
+    - calculate average rgb color over leds
     - discover gateway,get api key and querry light groups
     - convert rgb to hsv and sync to light groups
 
-Tested with Phillips Hue lights and several corsair devices.
+Tested with Phillips Hue lights and several Corsair devices.
 
 ## TODO
 
